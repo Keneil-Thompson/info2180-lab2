@@ -1,0 +1,92 @@
+img[src="profile-me.jpg"]{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	position: relative;	
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.TextWrap{
+	float: left;
+	overflow: auto;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+
+}
+
+body{
+	font-size: 18px;
+	color: #2D3748;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+.header-item{
+	grid-area: header;
+
+}
+
+.sidebar-item{
+	grid-area: sidebar;
+	
+}
+
+.main-item{
+	grid-area: main;
+
+}
+
+.footer-item{
+	grid-area: footer;
+	background-color: #2C5282;
+	color: #FFFFFF;
+	justify-content: space-between;
+
+}
+
+.container{
+	display: grid;
+	grid-template-areas: 
+	'header header header header header header'
+	'main main main main sidebar sidebar'
+	'footer footer footer footer footer footer';
+
+}
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
+header{
+	background-color: #63B3ED;
+	color: #FFFFFF;
+}
+h1{
+	font-size: 36px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+h2{
+	font-size: 32px;
+	color: #48BB78;
+}
+.dateAuthor{
+	color: #718096
+}
+h3{
+	color: #48BB78;
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+.about{
+	color: #000000;
+}
+.aboutSection{
+	background-color: #E2E8F0;
+	padding:  50px;
+
+}
+.links{
+	color: #4299E1;
+}
